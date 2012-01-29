@@ -11,6 +11,9 @@
 	<mvc:view-controller path="/" view-name="home" />
 	<mvc:view-controller path="/embeddedFlowContainer" />
 	<mvc:view-controller path="/embeddedFlowInModalDialogContainer" />
+	<mvc:view-controller path="/embeddedMy1" />
+	
+	<mvc:view-controller path="/home2"/>
 	
 	<context:component-scan base-package="org.springframework.samples.webflow" />
 	 

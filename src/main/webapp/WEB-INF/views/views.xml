@@ -8,5 +8,8 @@
 	<definition name="home" extends="standardLayout">
 		<put-attribute name="body" value="/WEB-INF/views/home.jsp" />
 	</definition>
+	<definition name="home2" extends="standardLayout">
+		<put-attribute name="body" value="/WEB-INF/views/home2.jsp" />
+	</definition>
 	
 </tiles-definitions>

@@ -13,7 +13,8 @@
 		<p>
 		<h4><a id="startFlow" href="embedded-flow-in-modal-dialog">Launch Flow</a></h4>
 		<script type="text/javascript">
-			Spring.addDecoration(new Spring.AjaxEventDecoration({elementId:"startFlow",event:"onclick",popup:true,params:{fragments:"body",mode:"embedded"}}));
+			Spring.addDecoration(new Spring.AjaxEventDecoration({elementId:"startFlow"
+				,event:"onclick",popup:true,params:{fragments:"body",mode:"embedded"}}));
 		</script>
 		</p>
 	</div>
